@@ -1,0 +1,25 @@
+{
+  "name": "shortcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/jass/dist/index.js src/in.jass dist/out.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "jass": "git+https://lynqu.visualstudio.com/DefaultCollection/_git/jass",
+    "ramda": "^0.22.1"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "stage-0"
+    ]
+  }
+}

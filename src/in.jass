@@ -1,0 +1,136 @@
+{
+  console.log();
+  const util = require(process.cwd() + '/src/util');
+  const gray = util.colors.lightgray;
+}
+
+.bs-r {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.bs-h {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bs-a {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  min-width: 42px;
+  min-height: 42px;
+  font-size: 15px;
+  overflow: hidden;
+  ${'.bs-h'};
+  transition: all .5s;
+}
+.btn {
+  background-color: ${gray};
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  ${'.bs-r'};
+  outline: none;
+  font-size: 15px;
+  padding: 4px 8px;
+  text-align: center;
+  user-select: none;
+  transition: all .3s;
+}
+.btn:not(.disabled):hover {
+  background-color: ${util.lighten(gray)};
+  cursor: pointer;
+  ${'.bs-h'};
+}
+.btn:not(.disabled):active {
+  background-color: ${util.darken(gray)};
+  transform: translateY(2px);
+  ${'.bs-a'};
+}
+.btn.disabled {
+  opacity: .5;
+}
+.txt {
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,.12);
+  outline: none;
+  font-size: 15px;
+  padding: 4px 0;
+  transition: all .3s;
+  background-color: transparent;
+}
+.txt:focus {
+  border-bottom: 2px solid blue;
+}
+
+{for (let i = 12; i <= 128; i += 6) {
+  .c${i} {
+    min-width: 0;
+    min-height: 0;
+    width: ${i}px;
+    height: ${i}px;
+    border-radius: 50%;
+    padding: 0;
+  }
+}}
+
+{for (let i = 5; i <= 100; i += 5) {
+  .w${i} { width: ${i}%; }
+  .h${i} { height: ${i}%; }
+}}
+
+{for (let i = 1; i <= 9; i++) {
+  .fw${i} { font-weight: ${i}00; }
+}}
+
+{[6, 8, 10, 12, 15, 18, 21, 24, 30, 36, 42, 48, 64, 128].map(x => {
+  .fs${x} { font-size: ${x}px; }
+})}
+
+{for (let i = 1; i <= 128; i *= 2) {
+  .m${i} { margin: ${i}px; }
+  .ml${i} { margin-left: ${i}px; }
+  .mr${i} { margin-right: ${i}px; }
+  .mt${i} { margin-top: ${i}px; }
+  .mb${i} { margin-bottom: ${i}px; }
+  .mh${i} { margin-left: ${i}px; margin-right: ${i}px; }
+  .mv${i} { margin-top: ${i}px; margin-bottom: ${i}px; }
+}}
+
+.p0 { padding: 0; }
+.ph0 { padding-left: 0; padding-right: 0; }
+.pv0 { padding-top: 0; padding-bottom: 0; }
+{for (let i = 1; i <= 128; i *= 2) {
+  .p${i} { padding: ${i}px; }
+  .pl${i} { padding-left: ${i}px; }
+  .pr${i} { padding-right: ${i}px; }
+  .pt${i} { padding-top: ${i}px; }
+  .pb${i} { padding-bottom: ${i}px; }
+  .ph${i} { padding-left: ${i}px; padding-right: ${i}px; }
+  .pv${i} { padding-top: ${i}px; padding-bottom: ${i}px; }
+}}
+
+{for (let i = 1; i <= 16; i++) {
+  .br${i} { border-radius: ${i}px; }
+}}
+.br50 { border-radius: 50%; }
+
+{for (let i = 0; i <= 16; i++) {
+  .bw${i} { border-width: ${i}px; }
+}}
+
+{
+  const cs = util.colors;
+  Object.keys(cs).map(x => {
+    const y = x[0].toUpperCase() + x.slice(1);
+    .${x} { color: ${cs[x]}; }
+    .${y} { background-color: ${cs[x]}; }
+    .${y}:not(.disabled):hover { background-color: ${util.lighten(cs[x])}; }
+    .${y}:not(.disabled):active { background-color: ${util.darken(cs[x])}; }
+  })
+}
+
+{for (let i = 2; i <= 64; i *= 2) {
+  .sp${i} { width: ${i}px; }
+  .spv${i} { height: ${i}px; }
+}}
+
+{for (let i = 5; i <= 95; i += 5) {
+  .op${i} { opacity: .${i}; }
+}}
