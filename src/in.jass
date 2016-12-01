@@ -1,5 +1,4 @@
 {
-  console.log();
   const util = require(process.cwd() + '/src/util');
   const gray = util.colors.lightgray;
 }
