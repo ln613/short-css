@@ -17,6 +17,7 @@
 .fs1 { flex-shrink: 1; }
 .tac { text-align: center; }
 .tar { text-align: right; }
+.tdn { text-decoration: none; }
 .hand { cursor: pointer; }
 .usn { user-select: none; }
 

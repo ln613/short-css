@@ -2765,6 +2765,9 @@
 .tar {
   text-align: right;
 }
+.tdn {
+  text-decoration: none;
+}
 .hand {
   cursor: pointer;
 }
