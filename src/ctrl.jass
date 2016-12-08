@@ -1,0 +1,45 @@
+.card {
+  min-width: 42px;
+  min-height: 42px;
+  font-size: 15px;
+  overflow: hidden;
+  ${'.bs4'};
+  transition: all .5s;
+}
+.btn {
+  background-color: ${gray};
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  ${'.bs1'};
+  outline: none;
+  font-size: 15px;
+  padding: 4px 8px;
+  text-align: center;
+  user-select: none;
+  transition: all .3s;
+}
+.btn:not(.disabled):hover {
+  background-color: ${util.lighten(gray)};
+  cursor: pointer;
+  ${'.bs4'};
+}
+.btn:not(.disabled):active {
+  background-color: ${util.darken(gray)};
+  transform: translateY(2px);
+  ${'.bs2'};
+}
+.btn.disabled {
+  opacity: .5;
+}
+.txt {
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,.12);
+  outline: none;
+  font-size: 15px;
+  padding: 4px 0;
+  transition: all .3s;
+  background-color: transparent;
+}
+.txt:focus {
+  border-bottom: 2px solid blue;
+}

@@ -1,62 +1,15 @@
 {
   const util = require(process.cwd() + '/src/util');
   const gray = util.colors.lightgray;
+
+  function boxShadow (n) {
+    .bs${n} {
+      box-shadow: 0 ${n * 1}px ${n * 2}px 0 rgba(0, 0, 0, 0.2), 0 ${n * 2}px ${n * 5}px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
 }
 
-.bs-r {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
-}
-.bs-h {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.bs-a {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-}
-.card {
-  min-width: 42px;
-  min-height: 42px;
-  font-size: 15px;
-  overflow: hidden;
-  ${'.bs-h'};
-  transition: all .5s;
-}
-.btn {
-  background-color: ${gray};
-  border: 1px solid #d9d9d9;
-  border-radius: 2px;
-  ${'.bs-r'};
-  outline: none;
-  font-size: 15px;
-  padding: 4px 8px;
-  text-align: center;
-  user-select: none;
-  transition: all .3s;
-}
-.btn:not(.disabled):hover {
-  background-color: ${util.lighten(gray)};
-  cursor: pointer;
-  ${'.bs-h'};
-}
-.btn:not(.disabled):active {
-  background-color: ${util.darken(gray)};
-  transform: translateY(2px);
-  ${'.bs-a'};
-}
-.btn.disabled {
-  opacity: .5;
-}
-.txt {
-  border: none;
-  border-bottom: 2px solid rgba(0,0,0,.12);
-  outline: none;
-  font-size: 15px;
-  padding: 4px 0;
-  transition: all .3s;
-  background-color: transparent;
-}
-.txt:focus {
-  border-bottom: 2px solid blue;
-}
+${'src/ctrl.jass'}
 
 {for (let i = 12; i <= 128; i += 6) {
   .c${i} {
@@ -133,3 +86,9 @@
 {for (let i = 5; i <= 95; i += 5) {
   .op${i} { opacity: .${i}; }
 }}
+
+{[1, 2, 4].map(x => {
+  boxShadow(x);
+})}
+
+${'src/styles.css'}
