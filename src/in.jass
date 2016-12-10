@@ -75,10 +75,12 @@ ${'src/ctrl.jass'}
   const cs = util.colors;
   Object.keys(cs).map(x => {
     const y = x[0].toUpperCase() + x.slice(1);
+    const z = 'h' + y;
     .${x} { color: ${cs[x]}; }
     .${y} { background-color: ${cs[x]}; }
-    .${y}:not(.disabled):hover { background-color: ${util.lighten(cs[x])}; }
-    .${y}:not(.disabled):active { background-color: ${util.darken(cs[x])}; }
+    .${z} { background-color: ${cs[x]}; }
+    .${z}:not(.disabled):hover { background-color: ${util.lighten(cs[x])}; }
+    .${z}:not(.disabled):active { background-color: ${util.darken(cs[x])}; }
   })
 }
 

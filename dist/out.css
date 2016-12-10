@@ -915,10 +915,13 @@
 .Aliceblue {
   background-color: #f0f8ff;
 }
-.Aliceblue:not(.disabled):hover {
+.hAliceblue {
+  background-color: #f0f8ff;
+}
+.hAliceblue:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Aliceblue:not(.disabled):active {
+.hAliceblue:not(.disabled):active {
   background-color: #dce4eb;
 }
 .antiquewhite {
@@ -927,10 +930,13 @@
 .Antiquewhite {
   background-color: #faebd7;
 }
-.Antiquewhite:not(.disabled):hover {
+.hAntiquewhite {
+  background-color: #faebd7;
+}
+.hAntiquewhite:not(.disabled):hover {
   background-color: #ffffeb;
 }
-.Antiquewhite:not(.disabled):active {
+.hAntiquewhite:not(.disabled):active {
   background-color: #e6d7c3;
 }
 .aqua {
@@ -939,10 +945,13 @@
 .Aqua {
   background-color: #00ffff;
 }
-.Aqua:not(.disabled):hover {
+.hAqua {
+  background-color: #00ffff;
+}
+.hAqua:not(.disabled):hover {
   background-color: #14ffff;
 }
-.Aqua:not(.disabled):active {
+.hAqua:not(.disabled):active {
   background-color: #00ebeb;
 }
 .aquamarine {
@@ -951,10 +960,13 @@
 .Aquamarine {
   background-color: #7fffd4;
 }
-.Aquamarine:not(.disabled):hover {
+.hAquamarine {
+  background-color: #7fffd4;
+}
+.hAquamarine:not(.disabled):hover {
   background-color: #93ffe8;
 }
-.Aquamarine:not(.disabled):active {
+.hAquamarine:not(.disabled):active {
   background-color: #6bebc0;
 }
 .azure {
@@ -963,10 +975,13 @@
 .Azure {
   background-color: #f0ffff;
 }
-.Azure:not(.disabled):hover {
+.hAzure {
+  background-color: #f0ffff;
+}
+.hAzure:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Azure:not(.disabled):active {
+.hAzure:not(.disabled):active {
   background-color: #dcebeb;
 }
 .beige {
@@ -975,10 +990,13 @@
 .Beige {
   background-color: #f5f5dc;
 }
-.Beige:not(.disabled):hover {
+.hBeige {
+  background-color: #f5f5dc;
+}
+.hBeige:not(.disabled):hover {
   background-color: #fffff0;
 }
-.Beige:not(.disabled):active {
+.hBeige:not(.disabled):active {
   background-color: #e1e1c8;
 }
 .bisque {
@@ -987,10 +1005,13 @@
 .Bisque {
   background-color: #ffe4c4;
 }
-.Bisque:not(.disabled):hover {
+.hBisque {
+  background-color: #ffe4c4;
+}
+.hBisque:not(.disabled):hover {
   background-color: #fff8d8;
 }
-.Bisque:not(.disabled):active {
+.hBisque:not(.disabled):active {
   background-color: #ebd0b0;
 }
 .black {
@@ -999,10 +1020,13 @@
 .Black {
   background-color: #000000;
 }
-.Black:not(.disabled):hover {
+.hBlack {
+  background-color: #000000;
+}
+.hBlack:not(.disabled):hover {
   background-color: #141414;
 }
-.Black:not(.disabled):active {
+.hBlack:not(.disabled):active {
   background-color: #000000;
 }
 .blanchedalmond {
@@ -1011,10 +1035,13 @@
 .Blanchedalmond {
   background-color: #ffebcd;
 }
-.Blanchedalmond:not(.disabled):hover {
+.hBlanchedalmond {
+  background-color: #ffebcd;
+}
+.hBlanchedalmond:not(.disabled):hover {
   background-color: #ffffe1;
 }
-.Blanchedalmond:not(.disabled):active {
+.hBlanchedalmond:not(.disabled):active {
   background-color: #ebd7b9;
 }
 .blue {
@@ -1023,10 +1050,13 @@
 .Blue {
   background-color: #0000ff;
 }
-.Blue:not(.disabled):hover {
+.hBlue {
+  background-color: #0000ff;
+}
+.hBlue:not(.disabled):hover {
   background-color: #1414ff;
 }
-.Blue:not(.disabled):active {
+.hBlue:not(.disabled):active {
   background-color: #0000eb;
 }
 .blueviolet {
@@ -1035,10 +1065,13 @@
 .Blueviolet {
   background-color: #8a2be2;
 }
-.Blueviolet:not(.disabled):hover {
+.hBlueviolet {
+  background-color: #8a2be2;
+}
+.hBlueviolet:not(.disabled):hover {
   background-color: #9e3ff6;
 }
-.Blueviolet:not(.disabled):active {
+.hBlueviolet:not(.disabled):active {
   background-color: #7617ce;
 }
 .brown {
@@ -1047,10 +1080,13 @@
 .Brown {
   background-color: #a52a2a;
 }
-.Brown:not(.disabled):hover {
+.hBrown {
+  background-color: #a52a2a;
+}
+.hBrown:not(.disabled):hover {
   background-color: #b93e3e;
 }
-.Brown:not(.disabled):active {
+.hBrown:not(.disabled):active {
   background-color: #911616;
 }
 .burlywood {
@@ -1059,10 +1095,13 @@
 .Burlywood {
   background-color: #deb887;
 }
-.Burlywood:not(.disabled):hover {
+.hBurlywood {
+  background-color: #deb887;
+}
+.hBurlywood:not(.disabled):hover {
   background-color: #f2cc9b;
 }
-.Burlywood:not(.disabled):active {
+.hBurlywood:not(.disabled):active {
   background-color: #caa473;
 }
 .cadetblue {
@@ -1071,10 +1110,13 @@
 .Cadetblue {
   background-color: #5f9ea0;
 }
-.Cadetblue:not(.disabled):hover {
+.hCadetblue {
+  background-color: #5f9ea0;
+}
+.hCadetblue:not(.disabled):hover {
   background-color: #73b2b4;
 }
-.Cadetblue:not(.disabled):active {
+.hCadetblue:not(.disabled):active {
   background-color: #4b8a8c;
 }
 .chartreuse {
@@ -1083,10 +1125,13 @@
 .Chartreuse {
   background-color: #7fff00;
 }
-.Chartreuse:not(.disabled):hover {
+.hChartreuse {
+  background-color: #7fff00;
+}
+.hChartreuse:not(.disabled):hover {
   background-color: #93ff14;
 }
-.Chartreuse:not(.disabled):active {
+.hChartreuse:not(.disabled):active {
   background-color: #6beb00;
 }
 .chocolate {
@@ -1095,10 +1140,13 @@
 .Chocolate {
   background-color: #d2691e;
 }
-.Chocolate:not(.disabled):hover {
+.hChocolate {
+  background-color: #d2691e;
+}
+.hChocolate:not(.disabled):hover {
   background-color: #e67d32;
 }
-.Chocolate:not(.disabled):active {
+.hChocolate:not(.disabled):active {
   background-color: #be550a;
 }
 .coral {
@@ -1107,10 +1155,13 @@
 .Coral {
   background-color: #ff7f50;
 }
-.Coral:not(.disabled):hover {
+.hCoral {
+  background-color: #ff7f50;
+}
+.hCoral:not(.disabled):hover {
   background-color: #ff9364;
 }
-.Coral:not(.disabled):active {
+.hCoral:not(.disabled):active {
   background-color: #eb6b3c;
 }
 .cornflowerblue {
@@ -1119,10 +1170,13 @@
 .Cornflowerblue {
   background-color: #6495ed;
 }
-.Cornflowerblue:not(.disabled):hover {
+.hCornflowerblue {
+  background-color: #6495ed;
+}
+.hCornflowerblue:not(.disabled):hover {
   background-color: #78a9ff;
 }
-.Cornflowerblue:not(.disabled):active {
+.hCornflowerblue:not(.disabled):active {
   background-color: #5081d9;
 }
 .cornsilk {
@@ -1131,10 +1185,13 @@
 .Cornsilk {
   background-color: #fff8dc;
 }
-.Cornsilk:not(.disabled):hover {
+.hCornsilk {
+  background-color: #fff8dc;
+}
+.hCornsilk:not(.disabled):hover {
   background-color: #fffff0;
 }
-.Cornsilk:not(.disabled):active {
+.hCornsilk:not(.disabled):active {
   background-color: #ebe4c8;
 }
 .crimson {
@@ -1143,10 +1200,13 @@
 .Crimson {
   background-color: #dc143c;
 }
-.Crimson:not(.disabled):hover {
+.hCrimson {
+  background-color: #dc143c;
+}
+.hCrimson:not(.disabled):hover {
   background-color: #f02850;
 }
-.Crimson:not(.disabled):active {
+.hCrimson:not(.disabled):active {
   background-color: #c80028;
 }
 .cyan {
@@ -1155,10 +1215,13 @@
 .Cyan {
   background-color: #00ffff;
 }
-.Cyan:not(.disabled):hover {
+.hCyan {
+  background-color: #00ffff;
+}
+.hCyan:not(.disabled):hover {
   background-color: #14ffff;
 }
-.Cyan:not(.disabled):active {
+.hCyan:not(.disabled):active {
   background-color: #00ebeb;
 }
 .darkblue {
@@ -1167,10 +1230,13 @@
 .Darkblue {
   background-color: #00008b;
 }
-.Darkblue:not(.disabled):hover {
+.hDarkblue {
+  background-color: #00008b;
+}
+.hDarkblue:not(.disabled):hover {
   background-color: #14149f;
 }
-.Darkblue:not(.disabled):active {
+.hDarkblue:not(.disabled):active {
   background-color: #000077;
 }
 .darkcyan {
@@ -1179,10 +1245,13 @@
 .Darkcyan {
   background-color: #008b8b;
 }
-.Darkcyan:not(.disabled):hover {
+.hDarkcyan {
+  background-color: #008b8b;
+}
+.hDarkcyan:not(.disabled):hover {
   background-color: #149f9f;
 }
-.Darkcyan:not(.disabled):active {
+.hDarkcyan:not(.disabled):active {
   background-color: #007777;
 }
 .darkgoldenrod {
@@ -1191,10 +1260,13 @@
 .Darkgoldenrod {
   background-color: #b8860b;
 }
-.Darkgoldenrod:not(.disabled):hover {
+.hDarkgoldenrod {
+  background-color: #b8860b;
+}
+.hDarkgoldenrod:not(.disabled):hover {
   background-color: #cc9a1f;
 }
-.Darkgoldenrod:not(.disabled):active {
+.hDarkgoldenrod:not(.disabled):active {
   background-color: #a47200;
 }
 .darkgray {
@@ -1203,10 +1275,13 @@
 .Darkgray {
   background-color: #a9a9a9;
 }
-.Darkgray:not(.disabled):hover {
+.hDarkgray {
+  background-color: #a9a9a9;
+}
+.hDarkgray:not(.disabled):hover {
   background-color: #bdbdbd;
 }
-.Darkgray:not(.disabled):active {
+.hDarkgray:not(.disabled):active {
   background-color: #959595;
 }
 .darkgreen {
@@ -1215,10 +1290,13 @@
 .Darkgreen {
   background-color: #006400;
 }
-.Darkgreen:not(.disabled):hover {
+.hDarkgreen {
+  background-color: #006400;
+}
+.hDarkgreen:not(.disabled):hover {
   background-color: #147814;
 }
-.Darkgreen:not(.disabled):active {
+.hDarkgreen:not(.disabled):active {
   background-color: #005000;
 }
 .darkkhaki {
@@ -1227,10 +1305,13 @@
 .Darkkhaki {
   background-color: #bdb76b;
 }
-.Darkkhaki:not(.disabled):hover {
+.hDarkkhaki {
+  background-color: #bdb76b;
+}
+.hDarkkhaki:not(.disabled):hover {
   background-color: #d1cb7f;
 }
-.Darkkhaki:not(.disabled):active {
+.hDarkkhaki:not(.disabled):active {
   background-color: #a9a357;
 }
 .darkmagenta {
@@ -1239,10 +1320,13 @@
 .Darkmagenta {
   background-color: #8b008b;
 }
-.Darkmagenta:not(.disabled):hover {
+.hDarkmagenta {
+  background-color: #8b008b;
+}
+.hDarkmagenta:not(.disabled):hover {
   background-color: #9f149f;
 }
-.Darkmagenta:not(.disabled):active {
+.hDarkmagenta:not(.disabled):active {
   background-color: #770077;
 }
 .darkolivegreen {
@@ -1251,10 +1335,13 @@
 .Darkolivegreen {
   background-color: #556b2f;
 }
-.Darkolivegreen:not(.disabled):hover {
+.hDarkolivegreen {
+  background-color: #556b2f;
+}
+.hDarkolivegreen:not(.disabled):hover {
   background-color: #697f43;
 }
-.Darkolivegreen:not(.disabled):active {
+.hDarkolivegreen:not(.disabled):active {
   background-color: #41571b;
 }
 .darkorange {
@@ -1263,10 +1350,13 @@
 .Darkorange {
   background-color: #ff8c00;
 }
-.Darkorange:not(.disabled):hover {
+.hDarkorange {
+  background-color: #ff8c00;
+}
+.hDarkorange:not(.disabled):hover {
   background-color: #ffa014;
 }
-.Darkorange:not(.disabled):active {
+.hDarkorange:not(.disabled):active {
   background-color: #eb7800;
 }
 .darkorchid {
@@ -1275,10 +1365,13 @@
 .Darkorchid {
   background-color: #9932cc;
 }
-.Darkorchid:not(.disabled):hover {
+.hDarkorchid {
+  background-color: #9932cc;
+}
+.hDarkorchid:not(.disabled):hover {
   background-color: #ad46e0;
 }
-.Darkorchid:not(.disabled):active {
+.hDarkorchid:not(.disabled):active {
   background-color: #851eb8;
 }
 .darkred {
@@ -1287,10 +1380,13 @@
 .Darkred {
   background-color: #8b0000;
 }
-.Darkred:not(.disabled):hover {
+.hDarkred {
+  background-color: #8b0000;
+}
+.hDarkred:not(.disabled):hover {
   background-color: #9f1414;
 }
-.Darkred:not(.disabled):active {
+.hDarkred:not(.disabled):active {
   background-color: #770000;
 }
 .darksalmon {
@@ -1299,10 +1395,13 @@
 .Darksalmon {
   background-color: #e9967a;
 }
-.Darksalmon:not(.disabled):hover {
+.hDarksalmon {
+  background-color: #e9967a;
+}
+.hDarksalmon:not(.disabled):hover {
   background-color: #fdaa8e;
 }
-.Darksalmon:not(.disabled):active {
+.hDarksalmon:not(.disabled):active {
   background-color: #d58266;
 }
 .darkseagreen {
@@ -1311,10 +1410,13 @@
 .Darkseagreen {
   background-color: #8fbc8f;
 }
-.Darkseagreen:not(.disabled):hover {
+.hDarkseagreen {
+  background-color: #8fbc8f;
+}
+.hDarkseagreen:not(.disabled):hover {
   background-color: #a3d0a3;
 }
-.Darkseagreen:not(.disabled):active {
+.hDarkseagreen:not(.disabled):active {
   background-color: #7ba87b;
 }
 .darkslateblue {
@@ -1323,10 +1425,13 @@
 .Darkslateblue {
   background-color: #483d8b;
 }
-.Darkslateblue:not(.disabled):hover {
+.hDarkslateblue {
+  background-color: #483d8b;
+}
+.hDarkslateblue:not(.disabled):hover {
   background-color: #5c519f;
 }
-.Darkslateblue:not(.disabled):active {
+.hDarkslateblue:not(.disabled):active {
   background-color: #342977;
 }
 .darkslategray {
@@ -1335,10 +1440,13 @@
 .Darkslategray {
   background-color: #2f4f4f;
 }
-.Darkslategray:not(.disabled):hover {
+.hDarkslategray {
+  background-color: #2f4f4f;
+}
+.hDarkslategray:not(.disabled):hover {
   background-color: #436363;
 }
-.Darkslategray:not(.disabled):active {
+.hDarkslategray:not(.disabled):active {
   background-color: #1b3b3b;
 }
 .darkturquoise {
@@ -1347,10 +1455,13 @@
 .Darkturquoise {
   background-color: #00ced1;
 }
-.Darkturquoise:not(.disabled):hover {
+.hDarkturquoise {
+  background-color: #00ced1;
+}
+.hDarkturquoise:not(.disabled):hover {
   background-color: #14e2e5;
 }
-.Darkturquoise:not(.disabled):active {
+.hDarkturquoise:not(.disabled):active {
   background-color: #00babd;
 }
 .darkviolet {
@@ -1359,10 +1470,13 @@
 .Darkviolet {
   background-color: #9400d3;
 }
-.Darkviolet:not(.disabled):hover {
+.hDarkviolet {
+  background-color: #9400d3;
+}
+.hDarkviolet:not(.disabled):hover {
   background-color: #a814e7;
 }
-.Darkviolet:not(.disabled):active {
+.hDarkviolet:not(.disabled):active {
   background-color: #8000bf;
 }
 .deeppink {
@@ -1371,10 +1485,13 @@
 .Deeppink {
   background-color: #ff1493;
 }
-.Deeppink:not(.disabled):hover {
+.hDeeppink {
+  background-color: #ff1493;
+}
+.hDeeppink:not(.disabled):hover {
   background-color: #ff28a7;
 }
-.Deeppink:not(.disabled):active {
+.hDeeppink:not(.disabled):active {
   background-color: #eb007f;
 }
 .deepskyblue {
@@ -1383,10 +1500,13 @@
 .Deepskyblue {
   background-color: #00bfff;
 }
-.Deepskyblue:not(.disabled):hover {
+.hDeepskyblue {
+  background-color: #00bfff;
+}
+.hDeepskyblue:not(.disabled):hover {
   background-color: #14d3ff;
 }
-.Deepskyblue:not(.disabled):active {
+.hDeepskyblue:not(.disabled):active {
   background-color: #00abeb;
 }
 .dimgray {
@@ -1395,10 +1515,13 @@
 .Dimgray {
   background-color: #696969;
 }
-.Dimgray:not(.disabled):hover {
+.hDimgray {
+  background-color: #696969;
+}
+.hDimgray:not(.disabled):hover {
   background-color: #7d7d7d;
 }
-.Dimgray:not(.disabled):active {
+.hDimgray:not(.disabled):active {
   background-color: #555555;
 }
 .dodgerblue {
@@ -1407,10 +1530,13 @@
 .Dodgerblue {
   background-color: #1e90ff;
 }
-.Dodgerblue:not(.disabled):hover {
+.hDodgerblue {
+  background-color: #1e90ff;
+}
+.hDodgerblue:not(.disabled):hover {
   background-color: #32a4ff;
 }
-.Dodgerblue:not(.disabled):active {
+.hDodgerblue:not(.disabled):active {
   background-color: #0a7ceb;
 }
 .firebrick {
@@ -1419,10 +1545,13 @@
 .Firebrick {
   background-color: #b22222;
 }
-.Firebrick:not(.disabled):hover {
+.hFirebrick {
+  background-color: #b22222;
+}
+.hFirebrick:not(.disabled):hover {
   background-color: #c63636;
 }
-.Firebrick:not(.disabled):active {
+.hFirebrick:not(.disabled):active {
   background-color: #9e0e0e;
 }
 .floralwhite {
@@ -1431,10 +1560,13 @@
 .Floralwhite {
   background-color: #fffaf0;
 }
-.Floralwhite:not(.disabled):hover {
+.hFloralwhite {
+  background-color: #fffaf0;
+}
+.hFloralwhite:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Floralwhite:not(.disabled):active {
+.hFloralwhite:not(.disabled):active {
   background-color: #ebe6dc;
 }
 .forestgreen {
@@ -1443,10 +1575,13 @@
 .Forestgreen {
   background-color: #228b22;
 }
-.Forestgreen:not(.disabled):hover {
+.hForestgreen {
+  background-color: #228b22;
+}
+.hForestgreen:not(.disabled):hover {
   background-color: #369f36;
 }
-.Forestgreen:not(.disabled):active {
+.hForestgreen:not(.disabled):active {
   background-color: #0e770e;
 }
 .fuchsia {
@@ -1455,10 +1590,13 @@
 .Fuchsia {
   background-color: #ff00ff;
 }
-.Fuchsia:not(.disabled):hover {
+.hFuchsia {
+  background-color: #ff00ff;
+}
+.hFuchsia:not(.disabled):hover {
   background-color: #ff14ff;
 }
-.Fuchsia:not(.disabled):active {
+.hFuchsia:not(.disabled):active {
   background-color: #eb00eb;
 }
 .gainsboro {
@@ -1467,10 +1605,13 @@
 .Gainsboro {
   background-color: #dcdcdc;
 }
-.Gainsboro:not(.disabled):hover {
+.hGainsboro {
+  background-color: #dcdcdc;
+}
+.hGainsboro:not(.disabled):hover {
   background-color: #f0f0f0;
 }
-.Gainsboro:not(.disabled):active {
+.hGainsboro:not(.disabled):active {
   background-color: #c8c8c8;
 }
 .ghostwhite {
@@ -1479,10 +1620,13 @@
 .Ghostwhite {
   background-color: #f8f8ff;
 }
-.Ghostwhite:not(.disabled):hover {
+.hGhostwhite {
+  background-color: #f8f8ff;
+}
+.hGhostwhite:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Ghostwhite:not(.disabled):active {
+.hGhostwhite:not(.disabled):active {
   background-color: #e4e4eb;
 }
 .gold {
@@ -1491,10 +1635,13 @@
 .Gold {
   background-color: #ffd700;
 }
-.Gold:not(.disabled):hover {
+.hGold {
+  background-color: #ffd700;
+}
+.hGold:not(.disabled):hover {
   background-color: #ffeb14;
 }
-.Gold:not(.disabled):active {
+.hGold:not(.disabled):active {
   background-color: #ebc300;
 }
 .goldenrod {
@@ -1503,10 +1650,13 @@
 .Goldenrod {
   background-color: #daa520;
 }
-.Goldenrod:not(.disabled):hover {
+.hGoldenrod {
+  background-color: #daa520;
+}
+.hGoldenrod:not(.disabled):hover {
   background-color: #eeb934;
 }
-.Goldenrod:not(.disabled):active {
+.hGoldenrod:not(.disabled):active {
   background-color: #c6910c;
 }
 .gray {
@@ -1515,10 +1665,13 @@
 .Gray {
   background-color: #808080;
 }
-.Gray:not(.disabled):hover {
+.hGray {
+  background-color: #808080;
+}
+.hGray:not(.disabled):hover {
   background-color: #949494;
 }
-.Gray:not(.disabled):active {
+.hGray:not(.disabled):active {
   background-color: #6c6c6c;
 }
 .green {
@@ -1527,10 +1680,13 @@
 .Green {
   background-color: #008000;
 }
-.Green:not(.disabled):hover {
+.hGreen {
+  background-color: #008000;
+}
+.hGreen:not(.disabled):hover {
   background-color: #149414;
 }
-.Green:not(.disabled):active {
+.hGreen:not(.disabled):active {
   background-color: #006c00;
 }
 .greenyellow {
@@ -1539,10 +1695,13 @@
 .Greenyellow {
   background-color: #adff2f;
 }
-.Greenyellow:not(.disabled):hover {
+.hGreenyellow {
+  background-color: #adff2f;
+}
+.hGreenyellow:not(.disabled):hover {
   background-color: #c1ff43;
 }
-.Greenyellow:not(.disabled):active {
+.hGreenyellow:not(.disabled):active {
   background-color: #99eb1b;
 }
 .honeydew {
@@ -1551,10 +1710,13 @@
 .Honeydew {
   background-color: #f0fff0;
 }
-.Honeydew:not(.disabled):hover {
+.hHoneydew {
+  background-color: #f0fff0;
+}
+.hHoneydew:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Honeydew:not(.disabled):active {
+.hHoneydew:not(.disabled):active {
   background-color: #dcebdc;
 }
 .hotpink {
@@ -1563,10 +1725,13 @@
 .Hotpink {
   background-color: #ff69b4;
 }
-.Hotpink:not(.disabled):hover {
+.hHotpink {
+  background-color: #ff69b4;
+}
+.hHotpink:not(.disabled):hover {
   background-color: #ff7dc8;
 }
-.Hotpink:not(.disabled):active {
+.hHotpink:not(.disabled):active {
   background-color: #eb55a0;
 }
 .indianred  {
@@ -1575,10 +1740,13 @@
 .Indianred  {
   background-color: #cd5c5c;
 }
-.Indianred :not(.disabled):hover {
+.hIndianred  {
+  background-color: #cd5c5c;
+}
+.hIndianred :not(.disabled):hover {
   background-color: #e17070;
 }
-.Indianred :not(.disabled):active {
+.hIndianred :not(.disabled):active {
   background-color: #b94848;
 }
 .indigo {
@@ -1587,10 +1755,13 @@
 .Indigo {
   background-color: #4b0082;
 }
-.Indigo:not(.disabled):hover {
+.hIndigo {
+  background-color: #4b0082;
+}
+.hIndigo:not(.disabled):hover {
   background-color: #5f1496;
 }
-.Indigo:not(.disabled):active {
+.hIndigo:not(.disabled):active {
   background-color: #37006e;
 }
 .ivory {
@@ -1599,10 +1770,13 @@
 .Ivory {
   background-color: #fffff0;
 }
-.Ivory:not(.disabled):hover {
+.hIvory {
+  background-color: #fffff0;
+}
+.hIvory:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Ivory:not(.disabled):active {
+.hIvory:not(.disabled):active {
   background-color: #ebebdc;
 }
 .khaki {
@@ -1611,10 +1785,13 @@
 .Khaki {
   background-color: #f0e68c;
 }
-.Khaki:not(.disabled):hover {
+.hKhaki {
+  background-color: #f0e68c;
+}
+.hKhaki:not(.disabled):hover {
   background-color: #fffaa0;
 }
-.Khaki:not(.disabled):active {
+.hKhaki:not(.disabled):active {
   background-color: #dcd278;
 }
 .lavender {
@@ -1623,10 +1800,13 @@
 .Lavender {
   background-color: #e6e6fa;
 }
-.Lavender:not(.disabled):hover {
+.hLavender {
+  background-color: #e6e6fa;
+}
+.hLavender:not(.disabled):hover {
   background-color: #fafaff;
 }
-.Lavender:not(.disabled):active {
+.hLavender:not(.disabled):active {
   background-color: #d2d2e6;
 }
 .lavenderblush {
@@ -1635,10 +1815,13 @@
 .Lavenderblush {
   background-color: #fff0f5;
 }
-.Lavenderblush:not(.disabled):hover {
+.hLavenderblush {
+  background-color: #fff0f5;
+}
+.hLavenderblush:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Lavenderblush:not(.disabled):active {
+.hLavenderblush:not(.disabled):active {
   background-color: #ebdce1;
 }
 .lawngreen {
@@ -1647,10 +1830,13 @@
 .Lawngreen {
   background-color: #7cfc00;
 }
-.Lawngreen:not(.disabled):hover {
+.hLawngreen {
+  background-color: #7cfc00;
+}
+.hLawngreen:not(.disabled):hover {
   background-color: #90ff14;
 }
-.Lawngreen:not(.disabled):active {
+.hLawngreen:not(.disabled):active {
   background-color: #68e800;
 }
 .lemonchiffon {
@@ -1659,10 +1845,13 @@
 .Lemonchiffon {
   background-color: #fffacd;
 }
-.Lemonchiffon:not(.disabled):hover {
+.hLemonchiffon {
+  background-color: #fffacd;
+}
+.hLemonchiffon:not(.disabled):hover {
   background-color: #ffffe1;
 }
-.Lemonchiffon:not(.disabled):active {
+.hLemonchiffon:not(.disabled):active {
   background-color: #ebe6b9;
 }
 .lightblue {
@@ -1671,10 +1860,13 @@
 .Lightblue {
   background-color: #add8e6;
 }
-.Lightblue:not(.disabled):hover {
+.hLightblue {
+  background-color: #add8e6;
+}
+.hLightblue:not(.disabled):hover {
   background-color: #c1ecfa;
 }
-.Lightblue:not(.disabled):active {
+.hLightblue:not(.disabled):active {
   background-color: #99c4d2;
 }
 .lightcoral {
@@ -1683,10 +1875,13 @@
 .Lightcoral {
   background-color: #f08080;
 }
-.Lightcoral:not(.disabled):hover {
+.hLightcoral {
+  background-color: #f08080;
+}
+.hLightcoral:not(.disabled):hover {
   background-color: #ff9494;
 }
-.Lightcoral:not(.disabled):active {
+.hLightcoral:not(.disabled):active {
   background-color: #dc6c6c;
 }
 .lightcyan {
@@ -1695,10 +1890,13 @@
 .Lightcyan {
   background-color: #e0ffff;
 }
-.Lightcyan:not(.disabled):hover {
+.hLightcyan {
+  background-color: #e0ffff;
+}
+.hLightcyan:not(.disabled):hover {
   background-color: #f4ffff;
 }
-.Lightcyan:not(.disabled):active {
+.hLightcyan:not(.disabled):active {
   background-color: #ccebeb;
 }
 .lightgoldenrodyellow {
@@ -1707,10 +1905,13 @@
 .Lightgoldenrodyellow {
   background-color: #fafad2;
 }
-.Lightgoldenrodyellow:not(.disabled):hover {
+.hLightgoldenrodyellow {
+  background-color: #fafad2;
+}
+.hLightgoldenrodyellow:not(.disabled):hover {
   background-color: #ffffe6;
 }
-.Lightgoldenrodyellow:not(.disabled):active {
+.hLightgoldenrodyellow:not(.disabled):active {
   background-color: #e6e6be;
 }
 .lightgray {
@@ -1719,10 +1920,13 @@
 .Lightgray {
   background-color: #d3d3d3;
 }
-.Lightgray:not(.disabled):hover {
+.hLightgray {
+  background-color: #d3d3d3;
+}
+.hLightgray:not(.disabled):hover {
   background-color: #e7e7e7;
 }
-.Lightgray:not(.disabled):active {
+.hLightgray:not(.disabled):active {
   background-color: #bfbfbf;
 }
 .lightgrey {
@@ -1731,10 +1935,13 @@
 .Lightgrey {
   background-color: #d3d3d3;
 }
-.Lightgrey:not(.disabled):hover {
+.hLightgrey {
+  background-color: #d3d3d3;
+}
+.hLightgrey:not(.disabled):hover {
   background-color: #e7e7e7;
 }
-.Lightgrey:not(.disabled):active {
+.hLightgrey:not(.disabled):active {
   background-color: #bfbfbf;
 }
 .lightgreen {
@@ -1743,10 +1950,13 @@
 .Lightgreen {
   background-color: #90ee90;
 }
-.Lightgreen:not(.disabled):hover {
+.hLightgreen {
+  background-color: #90ee90;
+}
+.hLightgreen:not(.disabled):hover {
   background-color: #a4ffa4;
 }
-.Lightgreen:not(.disabled):active {
+.hLightgreen:not(.disabled):active {
   background-color: #7cda7c;
 }
 .lightpink {
@@ -1755,10 +1965,13 @@
 .Lightpink {
   background-color: #ffb6c1;
 }
-.Lightpink:not(.disabled):hover {
+.hLightpink {
+  background-color: #ffb6c1;
+}
+.hLightpink:not(.disabled):hover {
   background-color: #ffcad5;
 }
-.Lightpink:not(.disabled):active {
+.hLightpink:not(.disabled):active {
   background-color: #eba2ad;
 }
 .lightsalmon {
@@ -1767,10 +1980,13 @@
 .Lightsalmon {
   background-color: #ffa07a;
 }
-.Lightsalmon:not(.disabled):hover {
+.hLightsalmon {
+  background-color: #ffa07a;
+}
+.hLightsalmon:not(.disabled):hover {
   background-color: #ffb48e;
 }
-.Lightsalmon:not(.disabled):active {
+.hLightsalmon:not(.disabled):active {
   background-color: #eb8c66;
 }
 .lightseagreen {
@@ -1779,10 +1995,13 @@
 .Lightseagreen {
   background-color: #20b2aa;
 }
-.Lightseagreen:not(.disabled):hover {
+.hLightseagreen {
+  background-color: #20b2aa;
+}
+.hLightseagreen:not(.disabled):hover {
   background-color: #34c6be;
 }
-.Lightseagreen:not(.disabled):active {
+.hLightseagreen:not(.disabled):active {
   background-color: #0c9e96;
 }
 .lightskyblue {
@@ -1791,10 +2010,13 @@
 .Lightskyblue {
   background-color: #87cefa;
 }
-.Lightskyblue:not(.disabled):hover {
+.hLightskyblue {
+  background-color: #87cefa;
+}
+.hLightskyblue:not(.disabled):hover {
   background-color: #9be2ff;
 }
-.Lightskyblue:not(.disabled):active {
+.hLightskyblue:not(.disabled):active {
   background-color: #73bae6;
 }
 .lightslategray {
@@ -1803,10 +2025,13 @@
 .Lightslategray {
   background-color: #778899;
 }
-.Lightslategray:not(.disabled):hover {
+.hLightslategray {
+  background-color: #778899;
+}
+.hLightslategray:not(.disabled):hover {
   background-color: #8b9cad;
 }
-.Lightslategray:not(.disabled):active {
+.hLightslategray:not(.disabled):active {
   background-color: #637485;
 }
 .lightsteelblue {
@@ -1815,10 +2040,13 @@
 .Lightsteelblue {
   background-color: #b0c4de;
 }
-.Lightsteelblue:not(.disabled):hover {
+.hLightsteelblue {
+  background-color: #b0c4de;
+}
+.hLightsteelblue:not(.disabled):hover {
   background-color: #c4d8f2;
 }
-.Lightsteelblue:not(.disabled):active {
+.hLightsteelblue:not(.disabled):active {
   background-color: #9cb0ca;
 }
 .lightyellow {
@@ -1827,10 +2055,13 @@
 .Lightyellow {
   background-color: #ffffe0;
 }
-.Lightyellow:not(.disabled):hover {
+.hLightyellow {
+  background-color: #ffffe0;
+}
+.hLightyellow:not(.disabled):hover {
   background-color: #fffff4;
 }
-.Lightyellow:not(.disabled):active {
+.hLightyellow:not(.disabled):active {
   background-color: #ebebcc;
 }
 .lime {
@@ -1839,10 +2070,13 @@
 .Lime {
   background-color: #00ff00;
 }
-.Lime:not(.disabled):hover {
+.hLime {
+  background-color: #00ff00;
+}
+.hLime:not(.disabled):hover {
   background-color: #14ff14;
 }
-.Lime:not(.disabled):active {
+.hLime:not(.disabled):active {
   background-color: #00eb00;
 }
 .limegreen {
@@ -1851,10 +2085,13 @@
 .Limegreen {
   background-color: #32cd32;
 }
-.Limegreen:not(.disabled):hover {
+.hLimegreen {
+  background-color: #32cd32;
+}
+.hLimegreen:not(.disabled):hover {
   background-color: #46e146;
 }
-.Limegreen:not(.disabled):active {
+.hLimegreen:not(.disabled):active {
   background-color: #1eb91e;
 }
 .linen {
@@ -1863,10 +2100,13 @@
 .Linen {
   background-color: #faf0e6;
 }
-.Linen:not(.disabled):hover {
+.hLinen {
+  background-color: #faf0e6;
+}
+.hLinen:not(.disabled):hover {
   background-color: #fffffa;
 }
-.Linen:not(.disabled):active {
+.hLinen:not(.disabled):active {
   background-color: #e6dcd2;
 }
 .magenta {
@@ -1875,10 +2115,13 @@
 .Magenta {
   background-color: #ff00ff;
 }
-.Magenta:not(.disabled):hover {
+.hMagenta {
+  background-color: #ff00ff;
+}
+.hMagenta:not(.disabled):hover {
   background-color: #ff14ff;
 }
-.Magenta:not(.disabled):active {
+.hMagenta:not(.disabled):active {
   background-color: #eb00eb;
 }
 .maroon {
@@ -1887,10 +2130,13 @@
 .Maroon {
   background-color: #800000;
 }
-.Maroon:not(.disabled):hover {
+.hMaroon {
+  background-color: #800000;
+}
+.hMaroon:not(.disabled):hover {
   background-color: #941414;
 }
-.Maroon:not(.disabled):active {
+.hMaroon:not(.disabled):active {
   background-color: #6c0000;
 }
 .mediumaquamarine {
@@ -1899,10 +2145,13 @@
 .Mediumaquamarine {
   background-color: #66cdaa;
 }
-.Mediumaquamarine:not(.disabled):hover {
+.hMediumaquamarine {
+  background-color: #66cdaa;
+}
+.hMediumaquamarine:not(.disabled):hover {
   background-color: #7ae1be;
 }
-.Mediumaquamarine:not(.disabled):active {
+.hMediumaquamarine:not(.disabled):active {
   background-color: #52b996;
 }
 .mediumblue {
@@ -1911,10 +2160,13 @@
 .Mediumblue {
   background-color: #0000cd;
 }
-.Mediumblue:not(.disabled):hover {
+.hMediumblue {
+  background-color: #0000cd;
+}
+.hMediumblue:not(.disabled):hover {
   background-color: #1414e1;
 }
-.Mediumblue:not(.disabled):active {
+.hMediumblue:not(.disabled):active {
   background-color: #0000b9;
 }
 .mediumorchid {
@@ -1923,10 +2175,13 @@
 .Mediumorchid {
   background-color: #ba55d3;
 }
-.Mediumorchid:not(.disabled):hover {
+.hMediumorchid {
+  background-color: #ba55d3;
+}
+.hMediumorchid:not(.disabled):hover {
   background-color: #ce69e7;
 }
-.Mediumorchid:not(.disabled):active {
+.hMediumorchid:not(.disabled):active {
   background-color: #a641bf;
 }
 .mediumpurple {
@@ -1935,10 +2190,13 @@
 .Mediumpurple {
   background-color: #9370d8;
 }
-.Mediumpurple:not(.disabled):hover {
+.hMediumpurple {
+  background-color: #9370d8;
+}
+.hMediumpurple:not(.disabled):hover {
   background-color: #a784ec;
 }
-.Mediumpurple:not(.disabled):active {
+.hMediumpurple:not(.disabled):active {
   background-color: #7f5cc4;
 }
 .mediumseagreen {
@@ -1947,10 +2205,13 @@
 .Mediumseagreen {
   background-color: #3cb371;
 }
-.Mediumseagreen:not(.disabled):hover {
+.hMediumseagreen {
+  background-color: #3cb371;
+}
+.hMediumseagreen:not(.disabled):hover {
   background-color: #50c785;
 }
-.Mediumseagreen:not(.disabled):active {
+.hMediumseagreen:not(.disabled):active {
   background-color: #289f5d;
 }
 .mediumslateblue {
@@ -1959,10 +2220,13 @@
 .Mediumslateblue {
   background-color: #7b68ee;
 }
-.Mediumslateblue:not(.disabled):hover {
+.hMediumslateblue {
+  background-color: #7b68ee;
+}
+.hMediumslateblue:not(.disabled):hover {
   background-color: #8f7cff;
 }
-.Mediumslateblue:not(.disabled):active {
+.hMediumslateblue:not(.disabled):active {
   background-color: #6754da;
 }
 .mediumspringgreen {
@@ -1971,10 +2235,13 @@
 .Mediumspringgreen {
   background-color: #00fa9a;
 }
-.Mediumspringgreen:not(.disabled):hover {
+.hMediumspringgreen {
+  background-color: #00fa9a;
+}
+.hMediumspringgreen:not(.disabled):hover {
   background-color: #14ffae;
 }
-.Mediumspringgreen:not(.disabled):active {
+.hMediumspringgreen:not(.disabled):active {
   background-color: #00e686;
 }
 .mediumturquoise {
@@ -1983,10 +2250,13 @@
 .Mediumturquoise {
   background-color: #48d1cc;
 }
-.Mediumturquoise:not(.disabled):hover {
+.hMediumturquoise {
+  background-color: #48d1cc;
+}
+.hMediumturquoise:not(.disabled):hover {
   background-color: #5ce5e0;
 }
-.Mediumturquoise:not(.disabled):active {
+.hMediumturquoise:not(.disabled):active {
   background-color: #34bdb8;
 }
 .mediumvioletred {
@@ -1995,10 +2265,13 @@
 .Mediumvioletred {
   background-color: #c71585;
 }
-.Mediumvioletred:not(.disabled):hover {
+.hMediumvioletred {
+  background-color: #c71585;
+}
+.hMediumvioletred:not(.disabled):hover {
   background-color: #db2999;
 }
-.Mediumvioletred:not(.disabled):active {
+.hMediumvioletred:not(.disabled):active {
   background-color: #b30171;
 }
 .midnightblue {
@@ -2007,10 +2280,13 @@
 .Midnightblue {
   background-color: #191970;
 }
-.Midnightblue:not(.disabled):hover {
+.hMidnightblue {
+  background-color: #191970;
+}
+.hMidnightblue:not(.disabled):hover {
   background-color: #2d2d84;
 }
-.Midnightblue:not(.disabled):active {
+.hMidnightblue:not(.disabled):active {
   background-color: #05055c;
 }
 .mintcream {
@@ -2019,10 +2295,13 @@
 .Mintcream {
   background-color: #f5fffa;
 }
-.Mintcream:not(.disabled):hover {
+.hMintcream {
+  background-color: #f5fffa;
+}
+.hMintcream:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Mintcream:not(.disabled):active {
+.hMintcream:not(.disabled):active {
   background-color: #e1ebe6;
 }
 .mistyrose {
@@ -2031,10 +2310,13 @@
 .Mistyrose {
   background-color: #ffe4e1;
 }
-.Mistyrose:not(.disabled):hover {
+.hMistyrose {
+  background-color: #ffe4e1;
+}
+.hMistyrose:not(.disabled):hover {
   background-color: #fff8f5;
 }
-.Mistyrose:not(.disabled):active {
+.hMistyrose:not(.disabled):active {
   background-color: #ebd0cd;
 }
 .moccasin {
@@ -2043,10 +2325,13 @@
 .Moccasin {
   background-color: #ffe4b5;
 }
-.Moccasin:not(.disabled):hover {
+.hMoccasin {
+  background-color: #ffe4b5;
+}
+.hMoccasin:not(.disabled):hover {
   background-color: #fff8c9;
 }
-.Moccasin:not(.disabled):active {
+.hMoccasin:not(.disabled):active {
   background-color: #ebd0a1;
 }
 .navajowhite {
@@ -2055,10 +2340,13 @@
 .Navajowhite {
   background-color: #ffdead;
 }
-.Navajowhite:not(.disabled):hover {
+.hNavajowhite {
+  background-color: #ffdead;
+}
+.hNavajowhite:not(.disabled):hover {
   background-color: #fff2c1;
 }
-.Navajowhite:not(.disabled):active {
+.hNavajowhite:not(.disabled):active {
   background-color: #ebca99;
 }
 .navy {
@@ -2067,10 +2355,13 @@
 .Navy {
   background-color: #000080;
 }
-.Navy:not(.disabled):hover {
+.hNavy {
+  background-color: #000080;
+}
+.hNavy:not(.disabled):hover {
   background-color: #141494;
 }
-.Navy:not(.disabled):active {
+.hNavy:not(.disabled):active {
   background-color: #00006c;
 }
 .oldlace {
@@ -2079,10 +2370,13 @@
 .Oldlace {
   background-color: #fdf5e6;
 }
-.Oldlace:not(.disabled):hover {
+.hOldlace {
+  background-color: #fdf5e6;
+}
+.hOldlace:not(.disabled):hover {
   background-color: #fffffa;
 }
-.Oldlace:not(.disabled):active {
+.hOldlace:not(.disabled):active {
   background-color: #e9e1d2;
 }
 .olive {
@@ -2091,10 +2385,13 @@
 .Olive {
   background-color: #808000;
 }
-.Olive:not(.disabled):hover {
+.hOlive {
+  background-color: #808000;
+}
+.hOlive:not(.disabled):hover {
   background-color: #949414;
 }
-.Olive:not(.disabled):active {
+.hOlive:not(.disabled):active {
   background-color: #6c6c00;
 }
 .olivedrab {
@@ -2103,10 +2400,13 @@
 .Olivedrab {
   background-color: #6b8e23;
 }
-.Olivedrab:not(.disabled):hover {
+.hOlivedrab {
+  background-color: #6b8e23;
+}
+.hOlivedrab:not(.disabled):hover {
   background-color: #7fa237;
 }
-.Olivedrab:not(.disabled):active {
+.hOlivedrab:not(.disabled):active {
   background-color: #577a0f;
 }
 .orange {
@@ -2115,10 +2415,13 @@
 .Orange {
   background-color: #ffa500;
 }
-.Orange:not(.disabled):hover {
+.hOrange {
+  background-color: #ffa500;
+}
+.hOrange:not(.disabled):hover {
   background-color: #ffb914;
 }
-.Orange:not(.disabled):active {
+.hOrange:not(.disabled):active {
   background-color: #eb9100;
 }
 .orangered {
@@ -2127,10 +2430,13 @@
 .Orangered {
   background-color: #ff4500;
 }
-.Orangered:not(.disabled):hover {
+.hOrangered {
+  background-color: #ff4500;
+}
+.hOrangered:not(.disabled):hover {
   background-color: #ff5914;
 }
-.Orangered:not(.disabled):active {
+.hOrangered:not(.disabled):active {
   background-color: #eb3100;
 }
 .orchid {
@@ -2139,10 +2445,13 @@
 .Orchid {
   background-color: #da70d6;
 }
-.Orchid:not(.disabled):hover {
+.hOrchid {
+  background-color: #da70d6;
+}
+.hOrchid:not(.disabled):hover {
   background-color: #ee84ea;
 }
-.Orchid:not(.disabled):active {
+.hOrchid:not(.disabled):active {
   background-color: #c65cc2;
 }
 .palegoldenrod {
@@ -2151,10 +2460,13 @@
 .Palegoldenrod {
   background-color: #eee8aa;
 }
-.Palegoldenrod:not(.disabled):hover {
+.hPalegoldenrod {
+  background-color: #eee8aa;
+}
+.hPalegoldenrod:not(.disabled):hover {
   background-color: #fffcbe;
 }
-.Palegoldenrod:not(.disabled):active {
+.hPalegoldenrod:not(.disabled):active {
   background-color: #dad496;
 }
 .palegreen {
@@ -2163,10 +2475,13 @@
 .Palegreen {
   background-color: #98fb98;
 }
-.Palegreen:not(.disabled):hover {
+.hPalegreen {
+  background-color: #98fb98;
+}
+.hPalegreen:not(.disabled):hover {
   background-color: #acffac;
 }
-.Palegreen:not(.disabled):active {
+.hPalegreen:not(.disabled):active {
   background-color: #84e784;
 }
 .paleturquoise {
@@ -2175,10 +2490,13 @@
 .Paleturquoise {
   background-color: #afeeee;
 }
-.Paleturquoise:not(.disabled):hover {
+.hPaleturquoise {
+  background-color: #afeeee;
+}
+.hPaleturquoise:not(.disabled):hover {
   background-color: #c3ffff;
 }
-.Paleturquoise:not(.disabled):active {
+.hPaleturquoise:not(.disabled):active {
   background-color: #9bdada;
 }
 .palevioletred {
@@ -2187,10 +2505,13 @@
 .Palevioletred {
   background-color: #d87093;
 }
-.Palevioletred:not(.disabled):hover {
+.hPalevioletred {
+  background-color: #d87093;
+}
+.hPalevioletred:not(.disabled):hover {
   background-color: #ec84a7;
 }
-.Palevioletred:not(.disabled):active {
+.hPalevioletred:not(.disabled):active {
   background-color: #c45c7f;
 }
 .papayawhip {
@@ -2199,10 +2520,13 @@
 .Papayawhip {
   background-color: #ffefd5;
 }
-.Papayawhip:not(.disabled):hover {
+.hPapayawhip {
+  background-color: #ffefd5;
+}
+.hPapayawhip:not(.disabled):hover {
   background-color: #ffffe9;
 }
-.Papayawhip:not(.disabled):active {
+.hPapayawhip:not(.disabled):active {
   background-color: #ebdbc1;
 }
 .peachpuff {
@@ -2211,10 +2535,13 @@
 .Peachpuff {
   background-color: #ffdab9;
 }
-.Peachpuff:not(.disabled):hover {
+.hPeachpuff {
+  background-color: #ffdab9;
+}
+.hPeachpuff:not(.disabled):hover {
   background-color: #ffeecd;
 }
-.Peachpuff:not(.disabled):active {
+.hPeachpuff:not(.disabled):active {
   background-color: #ebc6a5;
 }
 .peru {
@@ -2223,10 +2550,13 @@
 .Peru {
   background-color: #cd853f;
 }
-.Peru:not(.disabled):hover {
+.hPeru {
+  background-color: #cd853f;
+}
+.hPeru:not(.disabled):hover {
   background-color: #e19953;
 }
-.Peru:not(.disabled):active {
+.hPeru:not(.disabled):active {
   background-color: #b9712b;
 }
 .pink {
@@ -2235,10 +2565,13 @@
 .Pink {
   background-color: #ffc0cb;
 }
-.Pink:not(.disabled):hover {
+.hPink {
+  background-color: #ffc0cb;
+}
+.hPink:not(.disabled):hover {
   background-color: #ffd4df;
 }
-.Pink:not(.disabled):active {
+.hPink:not(.disabled):active {
   background-color: #ebacb7;
 }
 .plum {
@@ -2247,10 +2580,13 @@
 .Plum {
   background-color: #dda0dd;
 }
-.Plum:not(.disabled):hover {
+.hPlum {
+  background-color: #dda0dd;
+}
+.hPlum:not(.disabled):hover {
   background-color: #f1b4f1;
 }
-.Plum:not(.disabled):active {
+.hPlum:not(.disabled):active {
   background-color: #c98cc9;
 }
 .powderblue {
@@ -2259,10 +2595,13 @@
 .Powderblue {
   background-color: #b0e0e6;
 }
-.Powderblue:not(.disabled):hover {
+.hPowderblue {
+  background-color: #b0e0e6;
+}
+.hPowderblue:not(.disabled):hover {
   background-color: #c4f4fa;
 }
-.Powderblue:not(.disabled):active {
+.hPowderblue:not(.disabled):active {
   background-color: #9cccd2;
 }
 .purple {
@@ -2271,10 +2610,13 @@
 .Purple {
   background-color: #800080;
 }
-.Purple:not(.disabled):hover {
+.hPurple {
+  background-color: #800080;
+}
+.hPurple:not(.disabled):hover {
   background-color: #941494;
 }
-.Purple:not(.disabled):active {
+.hPurple:not(.disabled):active {
   background-color: #6c006c;
 }
 .red {
@@ -2283,10 +2625,13 @@
 .Red {
   background-color: #ff0000;
 }
-.Red:not(.disabled):hover {
+.hRed {
+  background-color: #ff0000;
+}
+.hRed:not(.disabled):hover {
   background-color: #ff1414;
 }
-.Red:not(.disabled):active {
+.hRed:not(.disabled):active {
   background-color: #eb0000;
 }
 .rosybrown {
@@ -2295,10 +2640,13 @@
 .Rosybrown {
   background-color: #bc8f8f;
 }
-.Rosybrown:not(.disabled):hover {
+.hRosybrown {
+  background-color: #bc8f8f;
+}
+.hRosybrown:not(.disabled):hover {
   background-color: #d0a3a3;
 }
-.Rosybrown:not(.disabled):active {
+.hRosybrown:not(.disabled):active {
   background-color: #a87b7b;
 }
 .royalblue {
@@ -2307,10 +2655,13 @@
 .Royalblue {
   background-color: #4169e1;
 }
-.Royalblue:not(.disabled):hover {
+.hRoyalblue {
+  background-color: #4169e1;
+}
+.hRoyalblue:not(.disabled):hover {
   background-color: #557df5;
 }
-.Royalblue:not(.disabled):active {
+.hRoyalblue:not(.disabled):active {
   background-color: #2d55cd;
 }
 .saddlebrown {
@@ -2319,10 +2670,13 @@
 .Saddlebrown {
   background-color: #8b4513;
 }
-.Saddlebrown:not(.disabled):hover {
+.hSaddlebrown {
+  background-color: #8b4513;
+}
+.hSaddlebrown:not(.disabled):hover {
   background-color: #9f5927;
 }
-.Saddlebrown:not(.disabled):active {
+.hSaddlebrown:not(.disabled):active {
   background-color: #773100;
 }
 .salmon {
@@ -2331,10 +2685,13 @@
 .Salmon {
   background-color: #fa8072;
 }
-.Salmon:not(.disabled):hover {
+.hSalmon {
+  background-color: #fa8072;
+}
+.hSalmon:not(.disabled):hover {
   background-color: #ff9486;
 }
-.Salmon:not(.disabled):active {
+.hSalmon:not(.disabled):active {
   background-color: #e66c5e;
 }
 .sandybrown {
@@ -2343,10 +2700,13 @@
 .Sandybrown {
   background-color: #f4a460;
 }
-.Sandybrown:not(.disabled):hover {
+.hSandybrown {
+  background-color: #f4a460;
+}
+.hSandybrown:not(.disabled):hover {
   background-color: #ffb874;
 }
-.Sandybrown:not(.disabled):active {
+.hSandybrown:not(.disabled):active {
   background-color: #e0904c;
 }
 .seagreen {
@@ -2355,10 +2715,13 @@
 .Seagreen {
   background-color: #2e8b57;
 }
-.Seagreen:not(.disabled):hover {
+.hSeagreen {
+  background-color: #2e8b57;
+}
+.hSeagreen:not(.disabled):hover {
   background-color: #429f6b;
 }
-.Seagreen:not(.disabled):active {
+.hSeagreen:not(.disabled):active {
   background-color: #1a7743;
 }
 .seashell {
@@ -2367,10 +2730,13 @@
 .Seashell {
   background-color: #fff5ee;
 }
-.Seashell:not(.disabled):hover {
+.hSeashell {
+  background-color: #fff5ee;
+}
+.hSeashell:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Seashell:not(.disabled):active {
+.hSeashell:not(.disabled):active {
   background-color: #ebe1da;
 }
 .sienna {
@@ -2379,10 +2745,13 @@
 .Sienna {
   background-color: #a0522d;
 }
-.Sienna:not(.disabled):hover {
+.hSienna {
+  background-color: #a0522d;
+}
+.hSienna:not(.disabled):hover {
   background-color: #b46641;
 }
-.Sienna:not(.disabled):active {
+.hSienna:not(.disabled):active {
   background-color: #8c3e19;
 }
 .silver {
@@ -2391,10 +2760,13 @@
 .Silver {
   background-color: #c0c0c0;
 }
-.Silver:not(.disabled):hover {
+.hSilver {
+  background-color: #c0c0c0;
+}
+.hSilver:not(.disabled):hover {
   background-color: #d4d4d4;
 }
-.Silver:not(.disabled):active {
+.hSilver:not(.disabled):active {
   background-color: #acacac;
 }
 .skyblue {
@@ -2403,10 +2775,13 @@
 .Skyblue {
   background-color: #87ceeb;
 }
-.Skyblue:not(.disabled):hover {
+.hSkyblue {
+  background-color: #87ceeb;
+}
+.hSkyblue:not(.disabled):hover {
   background-color: #9be2ff;
 }
-.Skyblue:not(.disabled):active {
+.hSkyblue:not(.disabled):active {
   background-color: #73bad7;
 }
 .slateblue {
@@ -2415,10 +2790,13 @@
 .Slateblue {
   background-color: #6a5acd;
 }
-.Slateblue:not(.disabled):hover {
+.hSlateblue {
+  background-color: #6a5acd;
+}
+.hSlateblue:not(.disabled):hover {
   background-color: #7e6ee1;
 }
-.Slateblue:not(.disabled):active {
+.hSlateblue:not(.disabled):active {
   background-color: #5646b9;
 }
 .slategray {
@@ -2427,10 +2805,13 @@
 .Slategray {
   background-color: #708090;
 }
-.Slategray:not(.disabled):hover {
+.hSlategray {
+  background-color: #708090;
+}
+.hSlategray:not(.disabled):hover {
   background-color: #8494a4;
 }
-.Slategray:not(.disabled):active {
+.hSlategray:not(.disabled):active {
   background-color: #5c6c7c;
 }
 .snow {
@@ -2439,10 +2820,13 @@
 .Snow {
   background-color: #fffafa;
 }
-.Snow:not(.disabled):hover {
+.hSnow {
+  background-color: #fffafa;
+}
+.hSnow:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Snow:not(.disabled):active {
+.hSnow:not(.disabled):active {
   background-color: #ebe6e6;
 }
 .springgreen {
@@ -2451,10 +2835,13 @@
 .Springgreen {
   background-color: #00ff7f;
 }
-.Springgreen:not(.disabled):hover {
+.hSpringgreen {
+  background-color: #00ff7f;
+}
+.hSpringgreen:not(.disabled):hover {
   background-color: #14ff93;
 }
-.Springgreen:not(.disabled):active {
+.hSpringgreen:not(.disabled):active {
   background-color: #00eb6b;
 }
 .steelblue {
@@ -2463,10 +2850,13 @@
 .Steelblue {
   background-color: #4682b4;
 }
-.Steelblue:not(.disabled):hover {
+.hSteelblue {
+  background-color: #4682b4;
+}
+.hSteelblue:not(.disabled):hover {
   background-color: #5a96c8;
 }
-.Steelblue:not(.disabled):active {
+.hSteelblue:not(.disabled):active {
   background-color: #326ea0;
 }
 .tan {
@@ -2475,10 +2865,13 @@
 .Tan {
   background-color: #d2b48c;
 }
-.Tan:not(.disabled):hover {
+.hTan {
+  background-color: #d2b48c;
+}
+.hTan:not(.disabled):hover {
   background-color: #e6c8a0;
 }
-.Tan:not(.disabled):active {
+.hTan:not(.disabled):active {
   background-color: #bea078;
 }
 .teal {
@@ -2487,10 +2880,13 @@
 .Teal {
   background-color: #008080;
 }
-.Teal:not(.disabled):hover {
+.hTeal {
+  background-color: #008080;
+}
+.hTeal:not(.disabled):hover {
   background-color: #149494;
 }
-.Teal:not(.disabled):active {
+.hTeal:not(.disabled):active {
   background-color: #006c6c;
 }
 .thistle {
@@ -2499,10 +2895,13 @@
 .Thistle {
   background-color: #d8bfd8;
 }
-.Thistle:not(.disabled):hover {
+.hThistle {
+  background-color: #d8bfd8;
+}
+.hThistle:not(.disabled):hover {
   background-color: #ecd3ec;
 }
-.Thistle:not(.disabled):active {
+.hThistle:not(.disabled):active {
   background-color: #c4abc4;
 }
 .tomato {
@@ -2511,10 +2910,13 @@
 .Tomato {
   background-color: #ff6347;
 }
-.Tomato:not(.disabled):hover {
+.hTomato {
+  background-color: #ff6347;
+}
+.hTomato:not(.disabled):hover {
   background-color: #ff775b;
 }
-.Tomato:not(.disabled):active {
+.hTomato:not(.disabled):active {
   background-color: #eb4f33;
 }
 .turquoise {
@@ -2523,10 +2925,13 @@
 .Turquoise {
   background-color: #40e0d0;
 }
-.Turquoise:not(.disabled):hover {
+.hTurquoise {
+  background-color: #40e0d0;
+}
+.hTurquoise:not(.disabled):hover {
   background-color: #54f4e4;
 }
-.Turquoise:not(.disabled):active {
+.hTurquoise:not(.disabled):active {
   background-color: #2cccbc;
 }
 .violet {
@@ -2535,10 +2940,13 @@
 .Violet {
   background-color: #ee82ee;
 }
-.Violet:not(.disabled):hover {
+.hViolet {
+  background-color: #ee82ee;
+}
+.hViolet:not(.disabled):hover {
   background-color: #ff96ff;
 }
-.Violet:not(.disabled):active {
+.hViolet:not(.disabled):active {
   background-color: #da6eda;
 }
 .wheat {
@@ -2547,10 +2955,13 @@
 .Wheat {
   background-color: #f5deb3;
 }
-.Wheat:not(.disabled):hover {
+.hWheat {
+  background-color: #f5deb3;
+}
+.hWheat:not(.disabled):hover {
   background-color: #fff2c7;
 }
-.Wheat:not(.disabled):active {
+.hWheat:not(.disabled):active {
   background-color: #e1ca9f;
 }
 .white {
@@ -2559,10 +2970,13 @@
 .White {
   background-color: #ffffff;
 }
-.White:not(.disabled):hover {
+.hWhite {
   background-color: #ffffff;
 }
-.White:not(.disabled):active {
+.hWhite:not(.disabled):hover {
+  background-color: #ffffff;
+}
+.hWhite:not(.disabled):active {
   background-color: #ebebeb;
 }
 .whitesmoke {
@@ -2571,10 +2985,13 @@
 .Whitesmoke {
   background-color: #f5f5f5;
 }
-.Whitesmoke:not(.disabled):hover {
+.hWhitesmoke {
+  background-color: #f5f5f5;
+}
+.hWhitesmoke:not(.disabled):hover {
   background-color: #ffffff;
 }
-.Whitesmoke:not(.disabled):active {
+.hWhitesmoke:not(.disabled):active {
   background-color: #e1e1e1;
 }
 .yellow {
@@ -2583,10 +3000,13 @@
 .Yellow {
   background-color: #ffff00;
 }
-.Yellow:not(.disabled):hover {
+.hYellow {
+  background-color: #ffff00;
+}
+.hYellow:not(.disabled):hover {
   background-color: #ffff14;
 }
-.Yellow:not(.disabled):active {
+.hYellow:not(.disabled):active {
   background-color: #ebeb00;
 }
 .yellowgreen {
@@ -2595,10 +3015,13 @@
 .Yellowgreen {
   background-color: #9acd32;
 }
-.Yellowgreen:not(.disabled):hover {
+.hYellowgreen {
+  background-color: #9acd32;
+}
+.hYellowgreen:not(.disabled):hover {
   background-color: #aee146;
 }
-.Yellowgreen:not(.disabled):active {
+.hYellowgreen:not(.disabled):active {
   background-color: #86b91e;
 }
 .sp2 {
