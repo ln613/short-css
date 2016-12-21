@@ -1,29 +1,52 @@
+.aic { align-items: center; }
+.aife { align-items: flex-end; }
+.aifs { align-items: flex-start; }
+.ais { align-items: stretch; }
+.cp { cursor: pointer; }
 .f { display: flex; }
-.fv { display: flex; flex-flow: column; }
-.fw { display: flex; flex-wrap: wrap; }
+.f00a { flex: 0 0 auto; }
 .fc { display: flex; align-items: center; justify-content: center; text-align: center; }
+.fv { display: flex; flex-direction: column; }
+.fw { display: flex; flex-wrap: wrap; }
+.fg0 { flex-grow: 0; }
+.fg1 { flex-grow: 1; }
+.fs0 { flex-shrink: 0; }
+.fs1 { flex-shrink: 1; }
 .jcs { justify-content: start; }
 .jce { justify-content: end; }
 .jcc { justify-content: center; }
 .jcsb { justify-content: space-between; }
 .jcsa { justify-content: space-around; }
-.aic { align-items: center; }
-.aie { align-items: flex-end; }
-.ait { align-items: stretch; }
-.f00a { flex: 0 0 auto; }
-.fg0 { flex-grow: 0; }
-.fg1 { flex-grow: 1; }
-.fs0 { flex-shrink: 0; }
-.fs1 { flex-shrink: 1; }
+.oa { overflow: auto; }
+.oh { overflow: hidden; }
+.os { overflow: scroll; }
+.ov { overflow: visible; }
+.oxa { overflow-x: auto; }
+.oxh { overflow-x: hidden; }
+.oxs { overflow-x: scroll; }
+.oxv { overflow-x: visible; }
+.oya { overflow-y: auto; }
+.oyh { overflow-y: hidden; }
+.oys { overflow-y: scroll; }
+.oyv { overflow-y: visible; }
+.pa { position: absolute; }
+.pf { position: fixed; }
+.pr { position: relative; }
+.ps { position: static; }
 .tac { text-align: center; }
 .tar { text-align: right; }
 .tdn { text-decoration: none; }
-.hand { cursor: pointer; }
 .usn { user-select: none; }
+.vab { vertical-align: bottom; }
+.vabl { vertical-align: baseline; }
+.vam { vertical-align: middle; }
+.vat { vertical-align: top; }
+.vatb { vertical-align: text-bottom; }
+.vatt { vertical-align: text-top; }
+.vc { visibility: collapse; }
+.vh { visibility: hidden; }
+.vv { visibility: visible; }
+
 
 .hr { border-color: rgba(250,250,250,.5); width: 100%; margin: 0; }
 .li:hover { background-color: lavender; }
-.oxs { overflow-x: scroll; }
-.oxh { overflow-x: hidden; }
-.oys { overflow-y: scroll; }
-.oyh { overflow-y: hidden; }
