@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node node_modules/jass/dist/index.js src/in.jass dist/out.css",
+    "build": "node node_modules/jass/dist/jass-cli src/in.jass dist/out.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
