@@ -23,9 +23,9 @@
   cursor: pointer;
   ${'.bs4'};
 }
-.btn:not(.disabled):active {
-  transform: translateY(2px);
-}
+//.btn:not(.disabled):active {
+//  transform: translateY(2px);
+//}
 .btn.disabled {
   opacity: .5;
 }
