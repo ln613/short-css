@@ -24,7 +24,6 @@
   ${'.bs4'};
 }
 .btn:not(.disabled):active {
-  background-color: ${util.darken(gray)};
   transform: translateY(2px);
   ${'.bs2'};
 }
