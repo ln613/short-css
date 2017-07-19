@@ -3052,6 +3052,9 @@
 .spv64 {
   height: 64px;
 }
+.op0 {
+  opacity: 0;
+}
 .op5 {
   opacity: .5;
 }
@@ -3108,6 +3111,9 @@
 }
 .op95 {
   opacity: .95;
+}
+.op100 {
+  opacity: 1;
 }
 .aic {
   align-items: center;
