@@ -4,6 +4,7 @@
   font-size: 15px;
   overflow: hidden;
   transition: all .5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .btn {
   background-color: #d3d3d3;
@@ -15,10 +16,12 @@
   text-align: center;
   user-select: none;
   transition: all .3s;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 .btn:not(.disabled):hover {
   background-color: #e7e7e7;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .btn.disabled {
   opacity: .5;
@@ -3114,6 +3117,15 @@
 }
 .op100 {
   opacity: 1;
+}
+.bs1 {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.bs2 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.bs4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .aic {
   align-items: center;
