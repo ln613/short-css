@@ -75,7 +75,7 @@ ${'src/ctrl.jass'}
   const cs = util.colors;
   Object.keys(cs).map(x => {
      const y = x[0].toUpperCase() + x.slice(1);
-     const z = 'h' + y;
+     const z = y + '-h';
     .${x} { color: ${cs[x]}; }
     .${y} { background-color: ${cs[x]}; }
     .${z} { background-color: ${cs[x]}; }
@@ -95,7 +95,7 @@ ${'src/ctrl.jass'}
 }}
 .op100 { opacity: 1; }
 
-{[1, 2, 4].map(x => {
+{[1, 2, 4, 8].map(x => {
   boxShadow(x)
 })}
 

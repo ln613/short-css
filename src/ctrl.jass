@@ -3,8 +3,11 @@
   min-height: 42px;
   font-size: 15px;
   overflow: hidden;
-  ${'.bs4'};
+  ${'.bs2'};
   transition: all .5s;
+}
+.card:not(.disabled):hover {
+  ${'.bs4'};
 }
 .btn {
   background-color: ${gray};
@@ -21,7 +24,7 @@
 .btn:not(.disabled):hover {
   background-color: ${util.lighten(gray)};
   cursor: pointer;
-  ${'.bs4'};
+  ${'.bs2'};
 }
 //.btn:not(.disabled):active {
 //  transform: translateY(2px);

@@ -2,9 +2,10 @@
   "name": "shortcss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/out.css",
   "scripts": {
-    "build": "node node_modules/jass/dist/jass-cli src/in.jass dist/out.css",
+    "start": "watch \"npm run build\" src",
+    "build": "node node_modules/jass src/in.jass dist/out.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,8 +14,8 @@
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
-    "jass": "git+https://lynqu.visualstudio.com/DefaultCollection/_git/jass",
-    "ramda": "^0.22.1"
+    "ramda": "^0.22.1",
+    "watch": "^1.0.2"
   },
   "babel": {
     "presets": [
