@@ -12,8 +12,8 @@
 .fg1 { flex-grow: 1; }
 .fs0 { flex-shrink: 0; }
 .fs1 { flex-shrink: 1; }
-.jcs { justify-content: start; }
-.jce { justify-content: end; }
+.jcs { justify-content: flex-start; }
+.jce { justify-content: flex-end; }
 .jcc { justify-content: center; }
 .jcsb { justify-content: space-between; }
 .jcsa { justify-content: space-around; }

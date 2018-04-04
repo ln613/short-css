@@ -3239,10 +3239,10 @@
   flex-shrink: 1;
 }
 .jcs {
-  justify-content: start;
+  justify-content: flex-start;
 }
 .jce {
-  justify-content: end;
+  justify-content: flex-end;
 }
 .jcc {
   justify-content: center;
