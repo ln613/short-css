@@ -1,6 +1,6 @@
 {
   "name": "css-short",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of shortcuts of common css rules",
   "main": "dist/out.css",
   "scripts": {
