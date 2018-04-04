@@ -1,26 +1,19 @@
 {
   "name": "shortcss",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of shortcuts of common css rules",
   "main": "dist/out.css",
   "scripts": {
     "start": "watch \"npm run build\" src",
     "build": "node node_modules/jass src/in.jass dist/out.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nan Li",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0",
-    "ramda": "^0.22.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "ramda": "^0.25.0",
     "watch": "^1.0.2"
-  },
-  "babel": {
-    "presets": [
-      "latest",
-      "stage-0"
-    ]
   }
 }

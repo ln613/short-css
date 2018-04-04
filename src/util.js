@@ -47,6 +47,8 @@ const util = {
   lighten: (c, x) => util.changeColorBy(c, x || 20),
 
   darken: (c, x) => util.changeColorBy(c, -(x || 20)),
+
+  boxShadow: n => `0 ${n * 1}px ${n * 2}px 0 rgba(0, 0, 0, 0.2), 0 ${n * 2}px ${n * 5}px 0 rgba(0, 0, 0, 0.19)`,
 };
 
 module.exports = util;

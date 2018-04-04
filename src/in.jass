@@ -1,12 +1,6 @@
 {
   const util = require(process.cwd() + '/src/util');
   const gray = util.colors.lightgray;
-
-  function boxShadow (n) {
-    .bs${n} {
-      box-shadow: 0 ${n * 1}px ${n * 2}px 0 rgba(0, 0, 0, 0.2), 0 ${n * 2}px ${n * 5}px 0 rgba(0, 0, 0, 0.19);
-    }
-  }
 }
 
 ${'src/ctrl.jass'}
@@ -95,8 +89,14 @@ ${'src/ctrl.jass'}
 }}
 .op100 { opacity: 1; }
 
+{for (let i = 10; i <= 100; i += 10) {
+  .zi${i} { z-index: ${i}; }
+}}
+
 {[1, 2, 4, 8].map(x => {
-  boxShadow(x)
+  .bs${x} { box-shadow: ${util.boxShadow(x)}; }
+  .bs${x}-h { box-shadow: ${util.boxShadow(x)}; transition: all .5s; }
+  .bs${x}-h:not(.disabled):hover { box-shadow: ${util.boxShadow(x * 2)}; }
 })}
 
 ${'src/styles.css'}
