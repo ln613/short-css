@@ -36,6 +36,10 @@
 .tac { text-align: center; }
 .tar { text-align: right; }
 .tdn { text-decoration: none; }
+.tdo { text-decoration: overline; }
+.tdlt { text-decoration: line-through; }
+.tdu { text-decoration: underline; }
+.tduo { text-decoration: underline overline; }
 .usn { user-select: none; }
 .vab { vertical-align: bottom; }
 .vabl { vertical-align: baseline; }

@@ -35,12 +35,19 @@ ${'src/ctrl.jass'}
 
 {for (let i = 1; i <= 128; i *= 2) {
   .m${i} { margin: ${i}px; }
+  .mc${i} > * { margin: ${i}px; }
   .ml${i} { margin-left: ${i}px; }
+  .mlc${i} > * { margin-left: ${i}px; }
   .mr${i} { margin-right: ${i}px; }
+  .mrc${i} > * { margin-right: ${i}px; }
   .mt${i} { margin-top: ${i}px; }
+  .mtc${i} > * { margin-top: ${i}px; }
   .mb${i} { margin-bottom: ${i}px; }
+  .mbc${i} > * { margin-bottom: ${i}px; }
   .mh${i} { margin-left: ${i}px; margin-right: ${i}px; }
+  .mhc${i} > * { margin-left: ${i}px; margin-right: ${i}px; }
   .mv${i} { margin-top: ${i}px; margin-bottom: ${i}px; }
+  .mvc${i} > * { margin-top: ${i}px; margin-bottom: ${i}px; }
 }}
 
 .p0 { padding: 0; }
