@@ -1,6 +1,6 @@
 {
-  "name": "css-short",
-  "version": "1.0.3",
+  "name": "@ln613/css",
+  "version": "0.0.3",
   "description": "A collection of shortcuts of common css rules",
   "main": "dist/out.css",
   "scripts": {
@@ -11,8 +11,9 @@
   "author": "Nan Li",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "ramda": "^0.25.0",
     "watch": "^1.0.2"
   }
