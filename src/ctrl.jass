@@ -8,6 +8,7 @@
 }
 .card:not(.disabled):hover {
   ${'.bs4'};
+  transform: scale(1.1);
 }
 .btn {
   background-color: ${gray};
